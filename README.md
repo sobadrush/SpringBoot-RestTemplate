@@ -6,3 +6,11 @@
 3. 密碼：k**********
 4. 取得授權碼
 5. 至 Swagger 將授權碼貼上在 Authorization 欄位 (https://opendata.cwb.gov.tw/dist/opendata-swagger.html)
+
+
+# 參考資料
+| # |                                                          說明                                                           |
+|:-:|:---------------------------------------------------------------------------------------------------------------------:|
+| 1 | [[Baeldung] Configure a RestTemplate with RestTemplateBuilder](https://www.baeldung.com/spring-rest-template-builder) |
+| 2 |                 [Spring Boot中RestTemplate的使用](https://blog.csdn.net/Pruett/article/details/94570890)                  |
+| 3 |                                  [JsonSchema2POJO](https://www.jsonschema2pojo.org/)                                  |
