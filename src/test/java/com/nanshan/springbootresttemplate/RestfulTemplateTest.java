@@ -5,6 +5,7 @@ import com.nanshan.springbootresttemplate.utils.restful.ApiConfig;
 import jakarta.annotation.Resource;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
+import org.springframework.boot.test.web.server.LocalServerPort;
 import org.springframework.web.client.RestTemplate;
 
 import java.util.Map;
@@ -15,6 +16,9 @@ import java.util.Map;
  */
 public class RestfulTemplateTest extends BaseTest {
 
+    @LocalServerPort
+    private int port;
+
     @Resource(name = "RogerRestTemplate")
     private RestTemplate restTemplate;
 
@@ -22,6 +26,7 @@ public class RestfulTemplateTest extends BaseTest {
     @DisplayName("test001")
     // @Disabled
     public void test001() {
+        System.out.println("port = " + port);
         System.out.println("restTemplate = " + restTemplate);
     }
 
