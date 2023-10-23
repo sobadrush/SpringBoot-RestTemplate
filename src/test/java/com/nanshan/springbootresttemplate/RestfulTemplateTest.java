@@ -61,7 +61,8 @@ public class RestfulTemplateTest extends BaseTest {
                             "}";
         Map jsonMapForPost = new ObjectMapper().readValue(postJson, Map.class);
         System.err.println("postJson = " + postJson);
-        String resp = restTemplate.postForObject(url, jsonMapForPost, String.class);
+        Map<String, String> resp = restTemplate.postForObject(url, jsonMapForPost, Map.class);
+        // String resp = restTemplate.postForObject(url, jsonMapForPost, String.class);
         System.err.println("resp = " + resp);
     }
 
