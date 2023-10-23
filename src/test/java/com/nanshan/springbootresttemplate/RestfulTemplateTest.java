@@ -31,7 +31,7 @@ public class RestfulTemplateTest extends BaseTest {
     }
 
     @Test
-    @DisplayName("test002")
+    @DisplayName("test002: 發送 GET 請求測試")
     // @Disabled
     public void test002() {
         String url = "https://opendata.cwb.gov.tw/api/v1/rest/datastore/F-C0032-001?Authorization={authCode}&limit=1&locationName={area}&elementName=Wx&sort=time";
