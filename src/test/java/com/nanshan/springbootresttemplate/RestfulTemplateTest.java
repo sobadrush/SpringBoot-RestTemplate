@@ -1,6 +1,6 @@
 package com.nanshan.springbootresttemplate;
 
-import com.nanshan.springbootresttemplate.entity.FC0032001Rs;
+import com.nanshan.springbootresttemplate.entity.FC0032001.FC0032001Rs;
 import com.nanshan.springbootresttemplate.utils.restful.ApiConfig;
 import jakarta.annotation.Resource;
 import org.junit.jupiter.api.DisplayName;

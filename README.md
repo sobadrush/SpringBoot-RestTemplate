@@ -9,8 +9,9 @@
 
 
 # 參考資料
-| # |                                                          說明                                                           |
-|:-:|:---------------------------------------------------------------------------------------------------------------------:|
-| 1 | [[Baeldung] Configure a RestTemplate with RestTemplateBuilder](https://www.baeldung.com/spring-rest-template-builder) |
-| 2 |                 [Spring Boot中RestTemplate的使用](https://blog.csdn.net/Pruett/article/details/94570890)                  |
-| 3 |                                  [JsonSchema2POJO](https://www.jsonschema2pojo.org/)                                  |
+| # |                                                             說明                                                              |
+|:-:|:---------------------------------------------------------------------------------------------------------------------------:|
+| 1 |    [[Baeldung] Configure a RestTemplate with RestTemplateBuilder](https://www.baeldung.com/spring-rest-template-builder)    |
+| 2 |                    [Spring Boot中RestTemplate的使用](https://blog.csdn.net/Pruett/article/details/94570890)                     |
+| 3 |                                     [JsonSchema2POJO](https://www.jsonschema2pojo.org/)                                     |
+| 4 | [【Spring Boot】第22課－透過 RestTemplate 呼叫外部 API](https://chikuwa-tech-study.blogspot.com/2021/07/spring-boot-resttemplate.html) |

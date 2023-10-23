@@ -1,4 +1,4 @@
-package com.nanshan.springbootresttemplate.entity;
+package com.nanshan.springbootresttemplate.entity.FC0032001;
 
 import com.fasterxml.jackson.annotation.*;
 
