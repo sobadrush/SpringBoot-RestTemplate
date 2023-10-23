@@ -1,5 +1,7 @@
 package com.nanshan.springbootresttemplate;
 
+import com.fasterxml.jackson.core.JsonProcessingException;
+import com.fasterxml.jackson.databind.ObjectMapper;
 import com.nanshan.springbootresttemplate.entity.FC0032001.FC0032001Rs;
 import com.nanshan.springbootresttemplate.utils.restful.ApiConfig;
 import jakarta.annotation.Resource;
@@ -43,4 +45,24 @@ public class RestfulTemplateTest extends BaseTest {
         FC0032001Rs fc0032001Rs = restTemplate.getForObject(url, FC0032001Rs.class, params);
         System.out.println("fc0032001Rs = " + fc0032001Rs);
     }
+
+    @Test
+    @DisplayName("Test003: 發送 POST 請求測試")
+    public void test003() throws JsonProcessingException {
+        String url = "https://api.restful-api.dev/objects";
+        String postJson = "{" +
+                            "   \"name\": \"Apple MacBook Pro 16\"," +
+                            "   \"data\": {" +
+                            "      \"year\": 2019," +
+                            "      \"price\": 1849.99," +
+                            "      \"CPU model\": \"Intel Core i9\"," +
+                            "      \"Hard disk size\": \"1 TB\"" +
+                            "   }" +
+                            "}";
+        Map jsonMapForPost = new ObjectMapper().readValue(postJson, Map.class);
+        System.err.println("postJson = " + postJson);
+        String resp = restTemplate.postForObject(url, jsonMapForPost, String.class);
+        System.err.println("resp = " + resp);
+    }
+
 }
