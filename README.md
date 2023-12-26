@@ -7,6 +7,7 @@
 4. 取得授權碼
 5. 至 Swagger 將授權碼貼上在 Authorization 欄位 (https://opendata.cwb.gov.tw/dist/opendata-swagger.html)
 
+![image](https://github.com/sobadrush/SpringBoot-RestTemplate/blob/main/ReadMe-images/%E6%B0%A3%E8%B1%A1%E5%B1%80%E6%8E%88%E6%AC%8A%E7%A2%BC.png)
 
 # 參考資料
 | # |                                                             說明                                                              |
