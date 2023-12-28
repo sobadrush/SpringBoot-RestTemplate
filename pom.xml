@@ -22,6 +22,20 @@
 
     <dependencies>
 
+        <!-- Apache HttpClient -->
+        <!-- ref. https://www.baeldung.com/apache-httpclient-tls -->
+        <dependency>
+            <groupId>org.apache.httpcomponents</groupId>
+            <artifactId>httpclient</artifactId>
+            <version>4.5.4</version>
+        </dependency>
+
+        <dependency>
+            <groupId>commons-io</groupId>
+            <artifactId>commons-io</artifactId>
+            <version>2.11.0</version>
+        </dependency>
+
         <!-- 使用 RestTemplate -->
         <dependency>
             <groupId>org.springframework.boot</groupId>
